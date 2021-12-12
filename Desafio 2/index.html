@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Desafio 2</title>
+</head>
+<body>
+    <header>
+        <h1>ME ACHA!</h1>
+        <h4>ENCONTRE UM ENDERECO PELO NUMERO DE CEP</h2>
+            <section id="s1">
+            <a href="#"  class="material-icons icons-list">
+                travel_explore
+            </a>
+            </section>
+    </header>
+    <main>
+        
+        <div id="caixa">
+            <form method="get" name="procura ">
+            <fieldset>
+
+                <label for="cep" >Cep</label>
+
+                    <input type="text"required  placeholder="" class="txt" id="cep" name="cep" value="">
+
+                <label for="rua">Rua</label>
+
+                     <input type="text"class="txt" id="logradouro" name="rua" value="" disabled>
+
+                <label for="bairro">Bairro</label>    
+
+                             <input type="text"class="txt" id="bairro" name="bairro" value=""  disabled>
+
+                <label for="cidade">Cidade</label>
+
+                      <input type="text" class="txt" id="localidade" name="cidade" value="" disabled>
+
+                <label for="estado">Estado</label>
+
+                      <input type="text" class="txt" id="uf" name="estado" value="" disabled> 
+
+                                  
+            </fieldset>
+               <input type="button"  class="buscar" name="buscar" value="BUSCAR" id="buscarCep" >  
+                </form>
+            </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

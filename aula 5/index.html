@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // alert("ola mundo");
+    // prompt("digite alguma coisa");
+    // confirm("clique em algo");
+
+     
+    //  var nome = prompt(" digite seu nome ");
+    //  var cor = prompt( " qual e sua cor favorita" + nome+ "<br>");
+
+    // document.write("nome...:"+ nome+ " <br> ");
+    // document.write("A cor favorita do "+ nome +" e "+cor+ "<br>" );
+
+
+
+
+        // //    var vrddfalso = confirm("Clique em um botao")
+
+        //    if( confirm("Clique em um botao")){
+              
+        //         document.write(" Voce clicou em OK");
+        //         alert("Voce clicou em OK")
+
+        //    } else {
+        //        console.log( " Voce clicou em CANCELAR")
+
+        //    }
+
+     var opcao = prompt("Digite 1 ou 2 para carregar");
+     console.log(opcao)
+
+switch(opcao){
+    case "1": 
+        var perguntar = confirm( "Voce pretende continuar a operacao")
+          if(perguntar){
+            alert(" Parabens esta ficando bom");
+           } else {
+             alert(" puxa vida,voce esta com medo")
+         }
+           break;
+ 
+
+    case "2" :
+         var perguntar = confirm(" Voce e casado?");
+             if( perguntar){
+                 var conj = prompt ("Qual e o nome do seu conjuge?");
+                   alert ( "Parabens por ser casado com " + conj )
+               }
+        break;
+        default: console.log( "puts que pena")
+   
+
+    }
+
+ console.log("FIM")
+
+
+
+
+
+
+</script>
+<body>
+    
+</body>
+</html>
